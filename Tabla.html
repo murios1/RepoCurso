@@ -1,0 +1,52 @@
+<DOCTYPE html/>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <style> /* Metemos ahora el códio CSS para enriquecer el aspecto de la tabla en la web */
+         #tabla{
+            font-family:Arial, Helvetica, sans-serif;
+            border-collapse:separate;
+            width: 10%;
+         }        
+         #tabla td, #tabla th {
+           border: 1px solid #ddd;
+           padding: 8px; /* separación entre el borde de la celda y el texto del campo */
+         }
+         #tabla tr:nth-child(even){background-color:blue;} /*las filas impares llevan fondo azul*/
+         #tabla tr:hover {background-color: chartreuse;}   /*las filas en las que está el cursor ponen el fondo verde amarillo*/
+
+        #tabla th{
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color:aqua;
+            color:white;
+        }
+      </style>
+   </head>
+   <body>
+      <table id="tabla">
+         <tr> <!-- La primera fila de la tabla-->
+            <th>Empresa</th> <!-- Cabecera del la primera columna-->
+            <th>Contacto</th> <!-- Cabecera del la segunda columna-->
+            <th>Pais</th>  <!-- Cabecera del la tercera columna-->
+         </tr>
+         <tr> <!-- La segunda fila de la tabla-->
+            <td>Codigodata</td> <!-- Valor de la primera columna en esta fila-->
+            <td>Carlos</td> <!-- Valor de la segunda columna en esta fila-->
+            <td>España</td>  <!-- Valor de la tercera columna en esta fila-->
+         </tr>
+         <tr> <!-- La tercera fila de la tabla-->
+            <td>Oracle</td> <!-- Valor de la primera columna en esta fila-->
+            <td>Juan</td> <!-- Valor de la segunda columna en esta fila-->
+            <td>EEUU</td>  <!-- Valor de la tercera columna en esta fila-->
+         </tr>
+         <tr> <!-- La cuarta fila de la tabla-->
+            <td>Microsoft</td> <!-- Valor de la primera columna en esta fila-->
+            <td>Ana</td> <!-- Valor de la segunda columna en esta fila-->
+            <td>Inglaterra</td>  <!-- Valor de la tercera columna en esta fila-->
+         </tr>
+        </table>
+
+   </body>
+</html>

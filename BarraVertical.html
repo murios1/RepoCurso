@@ -1,0 +1,39 @@
+<DOCTYPE html/>
+<html>
+   <head>
+      <meta charset="UTF-8">
+
+      <style> /* Metemos ahora el códio CSS para enriquecer el aspecto de la web*/
+         ul{
+            list-style-type: none; /* para que no saque las biñetas a la izquierda*/
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color:darkgray;
+         }
+         li a {
+             display: block;
+             color: black;
+             padding: 8px 16px;
+             text-decoration: none;
+         }
+         li a.active{                       /* para la opción activa del menu*/
+            background-color: darkgreen;
+            color: white
+         }
+         li a:hover:not(active){            /*para la opción que se activa al pasar el ratón por encima*/
+            background-color: blue;
+            color: white;
+         }
+      </style>
+   </head>
+   <body>
+      <ul>  <!-- esta es la etiqueta para crear la barra vertical-->
+         <li><a class="active" href="#home">Home</a></li>
+         <li><a href="#zapateria">Zapatería</a></li>
+         <li><a href="#libreria">Librería</a></li>
+         <li><a href="#contactos">Contactos</a></li>
+         <li><a href="#quienessomos">Quienes somos</a></li>
+      </ul>
+   </body>
+</html>

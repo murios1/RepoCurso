@@ -1,0 +1,57 @@
+<DOCTYPE html/>
+<html>
+   <head>
+      <meta charset="UTF-8">
+
+      <style> /* Metemos ahora el códio CSS para enriquecer el aspecto de la web*/
+         header {
+                background-color: blue;
+                color: white;
+         }
+         h1 {
+            background-color: blue;
+            color: white;
+            position:;
+         }
+         ul {
+            list-style-type: none; /* para que no saque las biñetas a la izquierda*/
+            margin: 0;
+            padding: 0;
+            background-color:blue;
+         }
+         li a {
+            float: left;
+         }
+         li a {
+             display: block;
+             color: white;
+             padding: 8px 16px;
+             text-decoration: none;
+         }
+         li a.active{                       /* para la opción activa del menu*/
+            background-color: darkgreen;
+            color: white
+         }
+         li a:hover:not(active){            /*para la opción que se activa al pasar el ratón por encima*/
+            background-color: blue;
+            color: white;
+         }
+      </style>
+   </head>
+   <body>
+      <!-- Cabecera de la portada del diario*/-->
+      <header>
+         <p>Miércoles 13 de Julio de 2022</p>
+         <p><img src="imagenes/LogoElMundo.jpg" alt="myimage" align="middle"></p>
+         <ul>  <!-- esta es la etiqueta para crear la barra horizontal-->
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#españa">ESPAÑA</a></li>
+            <li><a href="#opinion">OPINIÓN</a></li>
+            <li><a href="#economia">ECONOMÍA</a></li>
+            <li><a href="#internacional">INTERNACIONAL</a></li>
+         </ul>
+      </header>
+      
+      
+   </body>
+</html>
